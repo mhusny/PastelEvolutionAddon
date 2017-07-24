@@ -363,9 +363,6 @@ Public Class frmStockEnquiries
 
                     'custom rights to negombo user
                     'If (sAgent = "Admin") Then
-                    '------------------------------------------------------------------
-                    'SQL = "UPDATE WhseStk SET WHMax_Lvl = "& Cells.Item("Max_Lvl").Value)& ", WHRe_Ord_Qty = " & Cells.Item("Re_Ord_Qty").Value) & ", 0, Cells.Item("Re_Ord_Qty").Value))), ", WHRe_Ord_Lvl = "), Interaction.IIf(Information.IsDBNull(RuntimeHelpers.GetObjectValue(current.Cells.Item("Re_Ord_Lvl").Value)), 0, RuntimeHelpers.GetObjectValue(current.Cells.Item("Re_Ord_Lvl").Value))), "   WHERE WHStockLink = '"), current.Cells.Item("StockLink").Value), "' AND WHWhseID = '"), current.Cells.Item("WHID").Value), "' "
-                    '------------------------------------------------------------------------
                     SQL = "UPDATE WhseStk SET WHMax_Lvl = " & ugR2.Cells("Max_Lvl").Value & ", WHRe_Ord_Qty = " & IIf(IsDBNull(ugR2.Cells("Re_Ord_Qty").Value), 0, ugR2.Cells("Re_Ord_Qty").Value) & ", WHRe_Ord_Lvl = " & IIf(IsDBNull(ugR2.Cells("Re_Ord_Lvl").Value), 0, ugR2.Cells("Re_Ord_Lvl").Value) & "   WHERE WHStockLink = '" & ugR2.Cells("StockLink").Value & "' AND WHWhseID = '" & ugR2.Cells("WHID").Value & "' "
                     'End If
 
@@ -379,21 +376,6 @@ Public Class frmStockEnquiries
                     Con2.Open()
                     CMD.ExecuteNonQuery()
                     Con2.Close()
-
-
-                    'Else
-
-                    '    SQL = "INSERT INTO Spil_PriceList_History(idPriceListPrices,dExcPrice1,dIncPrice1,dExcPrice2,dIncPrice2)" & _
-                    '    " VALUES (" & ugR1.Cells("IDPriceListPrices").Value & ", 0, 0, 0, 0)"
-                    '    CMD = New SqlCommand(SQL, Con2)
-                    '    CMD.CommandType = CommandType.Text
-                    '    Con2.Open()
-                    '    CMD.ExecuteNonQuery()
-                    '    Con2.Close()
-
-
-                    'End If
-
                 Next
             End If
         Next
