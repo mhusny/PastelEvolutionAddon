@@ -351,33 +351,32 @@ Public Class frmStockEnquiries
 
 
 
-                    'SQL = " SELECT dExcPrice1 FROM Spil_PriceList_History WHERE idPriceListPrices = " & ugR1.Cells("IDPriceListPrices").Value & ""
-                    'CMD = New SqlCommand(SQL, Con2)
-                    'CMD.CommandType = CommandType.Text
-                    'DA = New SqlDataAdapter(CMD)
-                    'DS = New DataSet
-                    'Con2.Open()
-                    'DA.Fill(DS)
-                    'Con2.Close()
-                    'If DS.Tables(0).Rows.Count > 0 Then
+                    SQL = " SELECT StockLink FROM dbo.StkItem WHERE Bar_Code  =  (SELECT Bar_Code FROM dbo.StkItem WHERE StockLink = " & ugR2.Cells("StockLink").Value & ")"
+                    CMD = New SqlCommand(SQL, Con2)
+                    CMD.CommandType = CommandType.Text
+                    DA = New SqlDataAdapter(CMD)
+                    DS = New DataSet
+                    Con2.Open()
+                    DA.Fill(DS)
+                    Con2.Close()
+                    If DS.Tables(0).Rows.Count > 0 Then
+                        For Each gdr In DS.Tables(0).Rows
+                            SQL = "UPDATE WhseStk SET WHMax_Lvl = " & ugR2.Cells("Max_Lvl").Value & ", WHRe_Ord_Qty = " & IIf(IsDBNull(ugR2.Cells("Re_Ord_Qty").Value), 0, ugR2.Cells("Re_Ord_Qty").Value) & ", WHRe_Ord_Lvl = " & IIf(IsDBNull(ugR2.Cells("Re_Ord_Lvl").Value), 0, ugR2.Cells("Re_Ord_Lvl").Value) & "   WHERE WHStockLink = '" & gdr("StockLink") & "' AND WHWhseID = '" & ugR2.Cells("WHID").Value & "' "
 
-                    'custom rights to negombo user
-                    'If (sAgent = "Admin") Then
-                    SQL = "UPDATE WhseStk SET WHMax_Lvl = " & ugR2.Cells("Max_Lvl").Value & ", WHRe_Ord_Qty = " & IIf(IsDBNull(ugR2.Cells("Re_Ord_Qty").Value), 0, ugR2.Cells("Re_Ord_Qty").Value) & ", WHRe_Ord_Lvl = " & IIf(IsDBNull(ugR2.Cells("Re_Ord_Lvl").Value), 0, ugR2.Cells("Re_Ord_Lvl").Value) & "   WHERE WHStockLink = '" & ugR2.Cells("StockLink").Value & "' AND WHWhseID = '" & ugR2.Cells("WHID").Value & "' "
-                    'End If
+                            CMD = New SqlCommand(SQL, Con2)
+                            CMD.CommandType = CommandType.Text
+                            Con2.Open()
+                            CMD.ExecuteNonQuery()
+                            Con2.Close()
+                        Next
+                    End If
 
                     'If (sSQLSrvDataBase = "dbNawinna_new" And agent.Description = 4 And ugR1.Cells("Branch").Value = "Negombo") Then
                     '    SQL = "UPDATE WhseStk SET WHRe_Ord_Qty = " & IIf(IsDBNull(ugR1.Cells("Re_Ord_Qty").Value), 0, ugR1.Cells("Re_Ord_Qty").Value) & ", WHRe_Ord_Lvl = " & IIf(IsDBNull(ugR1.Cells("Re_Ord_Lvl").Value), 0, ugR1.Cells("Re_Ord_Lvl").Value) & "   WHERE WHStockLink = '" & ugR1.Cells("StockLink").Value & "' AND WHWhseID = '" & ugR1.Cells("WHID").Value & "' "
                     'End If
-
-
-                    CMD = New SqlCommand(SQL, Con2)
-                    CMD.CommandType = CommandType.Text
-                    Con2.Open()
-                    CMD.ExecuteNonQuery()
-                    Con2.Close()
                 Next
             End If
+            Exit For
         Next
                     '                End If
                     '            Next
