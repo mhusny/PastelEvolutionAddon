@@ -3825,7 +3825,7 @@ abc:        DatabaseContext.CommitTran()
 
                 With objSQL
 
-                   
+                    'bookmark
                     'SQL = "SELECT Max_Lvl FROM StkItem WHERE description_1 ='" & UG.ActiveCell.Row.Cells("description_1").Value & "' and ItemActive = 1 "
                     SQL = "SELECT    WhseStk.WHMax_Lvl  FROM         StkItem INNER JOIN  WhseStk ON StkItem.StockLink = WhseStk.WHStockLink WHERE StkItem.description_1 ='" & UG.ActiveCell.Row.Cells("description_1").Value & "' and StkItem.ItemActive = 1 AND WhseStk.WHWhseID = " & clientWH & " "
                     CMD = New SqlCommand(SQL, Con2)
@@ -3849,7 +3849,7 @@ abc:        DatabaseContext.CommitTran()
                     End If
                     'End If
                 End With
-                'comented becoz branches can send what ever they wantirrespective of max level
+                'comented becoz branches can send what ever they want irrespective of max level
                 'Else
                 '    Con2 = New SqlConnection("Server=" & sSQLSrvName & ";User ID=" & sSQLSrvUserName & ";Password=" & sSQLSrvPassword & ";Database=" & sSQLSrvDataBase & "")
 
