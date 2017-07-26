@@ -160,7 +160,63 @@ Public Class frmMDI
         tslAgent.Text = sAgent
 
         frmLV_SO.LV.Items(12).Visible = False
-        
+
+        'expand tree
+        Dim node As UltraTreeNode
+        node = Me.ut.ActiveNode
+        If node Is Nothing Then Return
+        ' toggle the expansion state of this node and all its
+        ' descendant nodes.
+        If node.Expanded = True Then
+            node.CollapseAll()
+        Else
+            node.ExpandAll(ExpandAllType.OnlyNodesWithChildren)
+        End If
+
+        'Select order entry
+        ut.GetNodeByKey("EvoOrderEntry").Selected = False
+        frmLV_SO.Close()
+        frmLV_SO.MdiParent = Me
+        frmLV_SO.Set_ListView_Setting(-1)
+        For Each Dr In dsManu.Tables(0).Rows
+            If Dr("iManu") = 2221 Then  'Sales Order
+                frmLV_SO.LV.Items(0).Visible = True
+            ElseIf Dr("iManu") = 2222 Then 'Purchase Order
+                frmLV_SO.LV.Items(1).Visible = True
+            ElseIf Dr("iManu") = 2223 Then  'Location Tranfer
+                frmLV_SO.LV.Items(2).Visible = True
+            ElseIf Dr("iManu") = 2211 Then  'Bar Code
+                frmLV_SO.LV.Items(3).Visible = True
+            ElseIf Dr("iManu") = 2212 Then
+                frmLV_SO.LV.Items(6).Visible = True
+            ElseIf Dr("iManu") = 2213 Then
+                frmLV_SO.LV.Items(8).Visible = True
+            ElseIf Dr("iManu") = 2231 Then
+                frmLV_SO.LV.Items(5).Visible = True
+            ElseIf Dr("iManu") = 2232 Then
+                frmLV_SO.LV.Items(4).Visible = True
+            ElseIf Dr("iManu") = 2233 Then
+                frmLV_SO.LV.Items(7).Visible = True
+            ElseIf Dr("iManu") = 2215 Then
+                frmLV_SO.LV.Items(11).Visible = True
+            ElseIf Dr("iManu") = 2224 Then
+                frmLV_SO.LV.Items(21).Visible = True
+            ElseIf Dr("iManu") = 2214 Then
+                frmLV_SO.LV.Items(12).Visible = True
+            ElseIf Dr("iManu") = 2216 Then
+                frmLV_SO.LV.Items(15).Visible = True
+            ElseIf Dr("iManu") = 2225 Then
+                frmLV_SO.LV.Items(13).Visible = True
+            ElseIf Dr("iManu") = 2226 Then
+                frmLV_SO.LV.Items(19).Visible = True
+            ElseIf Dr("iManu") = 2227 Then
+                frmLV_SO.LV.Items(20).Visible = True
+            End If
+        Next
+        frmLV_SO.Show()
+        frmLV_SO.Text = "Order Entry"
+        frmLV_SO.BringToFront()
+
     End Sub
 
 
@@ -298,10 +354,6 @@ Public Class frmMDI
                 frmLV_SO.BringToFront()
             End If
         End If
-
-    End Sub
-
-    Private Sub ut_AfterSelect(ByVal sender As System.Object, ByVal e As Infragistics.Win.UltraWinTree.SelectEventArgs) Handles ut.AfterSelect
 
     End Sub
 

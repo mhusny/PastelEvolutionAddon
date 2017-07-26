@@ -55,14 +55,14 @@ Public Class frmStockEnquiries
         'End If
 
 
-        'Dim Dr As DataRow
-        'For Each Dr In dsManu.Tables(0).Rows
-        '    If 22251 = Dr("iManu") Then
-        tsbUpdate.Enabled = True
-        ''UG.DisplayLayout.Bands(0).Columns("Price_Incl").Hidden = True
-        ''UG.DisplayLayout.Override.RowSelectorHeaderStyle = Infragistics.Win.UltraWinGrid.RowSelectorHeaderStyle.Default
-        '    End If
-        'Next
+        Dim Dr As DataRow
+        For Each Dr In dsManu.Tables(0).Rows
+            If 22251 = Dr("iManu") Then
+                tsbUpdate.Enabled = True
+                'UG.DisplayLayout.Bands(0).Columns("Price_Incl").Hidden = True
+                'UG.DisplayLayout.Override.RowSelectorHeaderStyle = Infragistics.Win.UltraWinGrid.RowSelectorHeaderStyle.Default
+            End If
+        Next
 
 
 

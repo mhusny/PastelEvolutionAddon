@@ -311,14 +311,14 @@ Public Class frmMyLogin
             Exit Sub
         End If
 
-        'DatabaseContext.CreateCommonDBConnection("UMdbSERVER\SQLExpress", sSQLSrvCommonDB, sSQLSrvUserName, sSQLSrvPassword, False)
-        'DatabaseContext.SetLicense("DE09110022", "1428511")
-        'DatabaseContext.CreateConnection(sSQLSrvName, sSQLSrvDataBase, sSQLSrvUserName, sSQLSrvPassword, False)
+        DatabaseContext.CreateCommonDBConnection("UMdbSERVER\SQLExpress", sSQLSrvCommonDB, sSQLSrvUserName, sSQLSrvPassword, False)
+        DatabaseContext.SetLicense("DE09110022", "1428511")
+        DatabaseContext.CreateConnection(sSQLSrvName, sSQLSrvDataBase, sSQLSrvUserName, sSQLSrvPassword, False)
 
-        'If Pastel.Evolution.Agent.Authenticate(cmbAgent.Text.Trim.ToString, txtPassword.Text.Trim.ToString) = False Then
-        '    MessageBox.Show("System could not log-on you" & vbCrLf & "Makesure Agent Name and PassWord is Correct", "Pastel Evolution Log-on ", MessageBoxButtons.OK)
-        '    Exit Sub
-        'End If
+        If Pastel.Evolution.Agent.Authenticate(cmbAgent.Text.Trim.ToString, txtPassword.Text.Trim.ToString) = False Then
+            MessageBox.Show("System could not log-on you" & vbCrLf & "Makesure Agent Name and PassWord is Correct", "Pastel Evolution Log-on ", MessageBoxButtons.OK)
+            Exit Sub
+        End If
 
         sConStr = "Server=" & sSQLSrvName & ";Database=" & sSQLSrvDataBase & ";User ID=" & sSQLSrvUserName & ";Password=" & sSQLSrvPassword & ""
         Dim objSQL As New clsSqlConn

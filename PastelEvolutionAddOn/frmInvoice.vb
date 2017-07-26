@@ -63,7 +63,7 @@ Public Class frmInvoice
         sSQL += " SELECT idIncidentPriority, cDescription FROM _rtblIncidentPriority"
         sSQL += " SELECT     StkItem.WhseItem, StkItem.iUOMStockingUnitID, StkItem.StockLink, StkItem.Code, StkItem.Description_1, StkItem.Description_2, StkItem.ItemGroup, " & _
          " StkItem.bLotItem AS LotItem, StkItem.LatUCst, StkItem.AveUCst, _etblUnits.iUnitCategoryID, StkItem.iItemCostingMethod, GrpTbl.fCostMargine, StkItem.cSimpleCode,  " & _
-         " _btblBINLocation.cBinLocationName as Bin " & _
+         " _btblBINLocation.cBinLocationName as Bin, StkItem.Bar_Code " & _
          " FROM         StkItem LEFT OUTER JOIN " & _
          " _btblBINLocation ON StkItem.iBinLocationID = _btblBINLocation.idBinLocation LEFT OUTER JOIN " & _
          " GrpTbl ON StkItem.ItemGroup = GrpTbl.StGroup LEFT OUTER JOIN " & _
@@ -852,10 +852,11 @@ Public Class frmInvoice
                     'ElseIf clientWH = 1 Then 'matara
                     '    lvl = "Max_Lvl"
                     'End If
+                    Dim bar As String
 
                     With objSQL
                         'SQL = "SELECT " & lvl & " FROM StkItem WHERE description_1 ='" & e.Cell.Row.Cells("description_1").Value & "' and ItemActive = 1 "
-                        SQL = "SELECT    WhseStk.WHMax_Lvl   FROM         StkItem INNER JOIN  WhseStk ON StkItem.StockLink = WhseStk.WHStockLink WHERE StkItem.description_1 ='" & e.Cell.Row.Cells("description_1").Value & "' and StkItem.ItemActive = 1 AND WhseStk.WHWhseID = " & clientWH & " "
+                        SQL = "SELECT    WhseStk.WHMax_Lvl, StkItem.Bar_Code   FROM         StkItem INNER JOIN  WhseStk ON StkItem.StockLink = WhseStk.WHStockLink WHERE StkItem.description_1 ='" & e.Cell.Row.Cells("description_1").Value & "' and StkItem.ItemActive = 1 AND WhseStk.WHWhseID = " & clientWH & " "
                         CMD = New SqlCommand(SQL, Con2)
                         CMD.CommandType = CommandType.Text
                         DA = New SqlDataAdapter(CMD)
@@ -863,6 +864,7 @@ Public Class frmInvoice
                         Con2.Open()
                         DA.Fill(DS)
                         Con2.Close()
+                        bar = DS.Tables(0).Rows(0)(1)
                         If DS.Tables(0).Rows.Count > 0 Then
                             e.Cell.Row.Cells("WHMax_Lvl").Value = DS.Tables(0).Rows(0)(0)
                         End If
@@ -878,7 +880,7 @@ Public Class frmInvoice
                 '---------------------------------------------------------------
                 e.Cell.Row.Cells("AvailableQty").Value = Get_Available_Qty("SELECT WHQtyOnHand FROM WhseStk WHERE WHStockLink =" & e.Cell.Row.Cells("StockID").Value & " AND WHWhseID =" & e.Cell.Row.Cells("Warehouse").Value & "")
                 If sSQLSrvDataBase = "dbKelaniya_new" Then
-                    e.Cell.Row.Cells("BranchQty").Value = Get_Branch_Qty("SELECT     WhseStk.WHQtyOnHand + WhseStk.WHQtyOnPO   FROM         WhseStk INNER JOIN WhseMst ON WhseStk.WHWhseID = WhseMst.WhseLink INNER JOIN StkItem ON WhseStk.WHStockLink = StkItem.StockLink  WHERE cSimpleCode ='" & e.Cell.Row.Cells("cSimpleCode").Value & "' AND WhseLink = " & clientWH & " ")
+                    e.Cell.Row.Cells("BranchQty").Value = Get_Branch_Qty("SELECT     SUM(WhseStk.WHQtyOnHand + WhseStk.WHQtyOnPO)   FROM         WhseStk INNER JOIN WhseMst ON WhseStk.WHWhseID = WhseMst.WhseLink INNER JOIN StkItem ON WhseStk.WHStockLink = StkItem.StockLink  WHERE Bar_Code ='" & DS.Tables(0).Rows(0)(1) & "' AND WhseLink = " & clientWH & " ")
                 Else
                     e.Cell.Row.Cells("BranchQty").Value = Get_Branch_Qty("SELECT     WhseStk.WHQtyOnHand  FROM         WhseStk INNER JOIN WhseMst ON WhseStk.WHWhseID = WhseMst.WhseLink INNER JOIN StkItem ON WhseStk.WHStockLink = StkItem.StockLink  WHERE cSimpleCode ='" & e.Cell.Row.Cells("cSimpleCode").Value & "' AND DefaultWhse = 1 ")
                 End If
@@ -946,6 +948,7 @@ Public Class frmInvoice
                     UG.ActiveRow.Cells("IsLot").Value = IIf(DDStock.ActiveRow.Cells("LotItem").Value = True, True, False)
                     UG.ActiveRow.Cells("IsWH").Value = IIf(DDStock.ActiveRow.Cells("WhseItem").Value = True, True, False)
                     UG.ActiveRow.Cells("Bin").Value = DDDescription.ActiveRow.Cells("Bin").Value
+                    UG.ActiveRow.Cells("Bar_Code").Value = DDDescription.ActiveRow.Cells("Bar_Code").Value
 
                     
 
@@ -962,10 +965,11 @@ Public Class frmInvoice
                     UG.ActiveRow.Cells("IsLot").Value = IIf(DDDescription.ActiveRow.Cells("LotItem").Value = True, True, False)
                     UG.ActiveRow.Cells("IsWH").Value = IIf(DDDescription.ActiveRow.Cells("WhseItem").Value = True, True, False)
                     UG.ActiveRow.Cells("Bin").Value = DDDescription.ActiveRow.Cells("Bin").Value
+                    UG.ActiveRow.Cells("Bar_Code").Value = DDDescription.ActiveRow.Cells("Bar_Code").Value
 
                     UG.ActiveRow.Cells("cSimpleCode").Value = DDDescription.ActiveRow.Cells("cSimpleCode").Value
                     If sSQLSrvDataBase = "dbKelaniya_new" Then
-                        e.Cell.Row.Cells("BranchQty").Value = Get_Branch_Qty("SELECT     WhseStk.WHQtyOnHand + WhseStk.WHQtyOnPO   FROM         WhseStk INNER JOIN WhseMst ON WhseStk.WHWhseID = WhseMst.WhseLink INNER JOIN StkItem ON WhseStk.WHStockLink = StkItem.StockLink  WHERE cSimpleCode ='" & e.Cell.Row.Cells("cSimpleCode").Value & "' AND WhseLink = " & clientWH & " ")
+                        e.Cell.Row.Cells("BranchQty").Value = Get_Branch_Qty("SELECT     SUM(WhseStk.WHQtyOnHand + WhseStk.WHQtyOnPO)   FROM         WhseStk INNER JOIN WhseMst ON WhseStk.WHWhseID = WhseMst.WhseLink INNER JOIN StkItem ON WhseStk.WHStockLink = StkItem.StockLink  WHERE Bar_Code ='" & e.Cell.Row.Cells("Bar_Code").Value & "' AND WhseLink = " & clientWH & " ")
                     Else
                         e.Cell.Row.Cells("BranchQty").Value = Get_Branch_Qty("SELECT     WhseStk.WHQtyOnHand                    FROM         WhseStk INNER JOIN WhseMst ON WhseStk.WHWhseID = WhseMst.WhseLink INNER JOIN StkItem ON WhseStk.WHStockLink = StkItem.StockLink  WHERE cSimpleCode ='" & e.Cell.Row.Cells("cSimpleCode").Value & "' AND DefaultWhse = 1 ")
                     End If
