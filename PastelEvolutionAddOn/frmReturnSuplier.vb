@@ -611,7 +611,7 @@ Public Class frmReturnSuplier
                     CreditNote.Detail.Add(CRNDetail)
                 End If
                 'Next
-
+                'CreditNote.li()
                 CreditNote.Save()
 
                 DatabaseContext.CommitTran()

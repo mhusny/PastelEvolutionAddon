@@ -146,6 +146,7 @@ Partial Class frmStockEnquiries
         Me.txtCode.ReadOnly = True
         Me.txtCode.Size = New System.Drawing.Size(99, 21)
         Me.txtCode.TabIndex = 14
+        Me.txtCode.Visible = False
         '
         'txtSimpleCode
         '
@@ -157,6 +158,7 @@ Partial Class frmStockEnquiries
         Me.txtSimpleCode.ReadOnly = True
         Me.txtSimpleCode.Size = New System.Drawing.Size(118, 21)
         Me.txtSimpleCode.TabIndex = 13
+        Me.txtSimpleCode.Visible = False
         '
         'cmbInventoryItem
         '
