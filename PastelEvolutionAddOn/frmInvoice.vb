@@ -3636,9 +3636,9 @@ abc:        DatabaseContext.CommitTran()
         With objSQL
 
 
-            SQL = " SELECT DISTINCT ztable.[Part No], ztable.[System No], ztable.Cost, ztable.Price  FROM  ztable "
+            'SQL = " SELECT DISTINCT ztable.[Part No], ztable.[System No], ztable.Cost, ztable.Price  FROM  ztable "
 
-
+            SQL = " SELECT iStockID, fInclPrice FROM _etblPriceListPrices WHERE iPriceListNameID = 1 "
 
 
             'SQL = " SELECT DISTINCT " & _
@@ -3696,16 +3696,15 @@ abc:        DatabaseContext.CommitTran()
 
                     'If IsDBNull(dr("Price")) Or IsDBNull(dr("StockLink")) Then
                     'Else
-                    'SQL = " update StkItem set AveUCst = " & dr("Cost") & "  where StockLink = " & dr("System No") & " "
+                    SQL = " update StkItem set AveUCst = " & dr("fInclPrice") & ", LatUCst = " & dr("fInclPrice") & ", LowUCst = " & dr("fInclPrice") & ", HigUCst = " & dr("fInclPrice") & ", StdUCst = " & dr("fInclPrice") & "  where StockLink = " & dr("iStockID") & "  AND ServiceItem = 0 "
                     'SQL += " update _btblInvoiceLines set fUnitPriceExcl = " & dr("Cost") & ", fUnitPriceIncl = " & dr("Cost") & " where iInvoiceID = 16583 and iStockCodeID = " & dr("System No") & " "
-                    SQL = " update _etblPriceListPrices set fExclPrice = " & dr("Price") & ", fInclPrice = " & dr("Price") & " , _etblPriceListPrices_iBranchID = 1  where iStockID = (SELECT  distinct   iStockID  FROM        StkItem INNER JOIN    _etblPriceListPrices ON StkItem.StockLink = _etblPriceListPrices.iStockID         where StkItem.Description_1 = '" & dr("Part No") & "') "
 
-                    'SQL = " update StkItem set cRevision =  'FAST' where Description_1 = '" & dr("Part No") & "' "
-
-                    'try to use price list updater forf method..........................................................
-                    SQL = SQL + " update dbUdawatta_new.dbo._etblPriceListPrices set fExclPrice = " & dr("Price") & " , fInclPrice =  " & dr("Price") & " , _etblPriceListPrices_iBranchID = 1   where iStockID = (SELECT  distinct   iStockID  FROM         dbUdawatta_new.dbo.StkItem INNER JOIN     dbUdawatta_new.dbo._etblPriceListPrices ON dbUdawatta_new.dbo.StkItem.StockLink = dbUdawatta_new.dbo._etblPriceListPrices.iStockID         where StkItem.Description_1 = '" & dr("Part No") & "') "
-                    SQL = SQL + " update dbNawinna_new.dbo._etblPriceListPrices set fExclPrice = " & dr("Price") & " , fInclPrice =  " & dr("Price") & " , _etblPriceListPrices_iBranchID = 1   where iStockID = (SELECT  distinct   iStockID  FROM         dbNawinna_new.dbo.StkItem INNER JOIN     dbNawinna_new.dbo._etblPriceListPrices ON dbNawinna_new.dbo.StkItem.StockLink = dbNawinna_new.dbo._etblPriceListPrices.iStockID         where StkItem.Description_1 = '" & dr("Part No") & "') "
-
+                    '  -----------------------------------------------------------
+                    '  SQL = " update _etblPriceListPrices set fExclPrice = " & dr("Price") & ", fInclPrice = " & dr("Price") & " , _etblPriceListPrices_iBranchID = 1  where iStockID = (SELECT  distinct   iStockID  FROM        StkItem INNER JOIN    _etblPriceListPrices ON StkItem.StockLink = _etblPriceListPrices.iStockID         where StkItem.Description_1 = '" & dr("Part No") & "') "
+                    '  'try to use price list updater forf method..........................................................
+                    '  SQL = SQL + " update dbUdawatta_new.dbo._etblPriceListPrices set fExclPrice = " & dr("Price") & " , fInclPrice =  " & dr("Price") & " , _etblPriceListPrices_iBranchID = 1   where iStockID = (SELECT  distinct   iStockID  FROM         dbUdawatta_new.dbo.StkItem INNER JOIN     dbUdawatta_new.dbo._etblPriceListPrices ON dbUdawatta_new.dbo.StkItem.StockLink = dbUdawatta_new.dbo._etblPriceListPrices.iStockID         where StkItem.Description_1 = '" & dr("Part No") & "') "
+                    '  SQL = SQL + " update dbNawinna_new.dbo._etblPriceListPrices set fExclPrice = " & dr("Price") & " , fInclPrice =  " & dr("Price") & " , _etblPriceListPrices_iBranchID = 1   where iStockID = (SELECT  distinct   iStockID  FROM         dbNawinna_new.dbo.StkItem INNER JOIN     dbNawinna_new.dbo._etblPriceListPrices ON dbNawinna_new.dbo.StkItem.StockLink = dbNawinna_new.dbo._etblPriceListPrices.iStockID         where StkItem.Description_1 = '" & dr("Part No") & "') "
+                    '--------------------------------------------------
 
                     'SQL = " update _etblPriceListPrices set fMarkupRate = 25, bUseMarkup = 1, fInclPrice = (" & dr("AveUCst") & " * .25) + " & dr("AveUCst") & ", fExclPrice = (" & dr("AveUCst") & " * .25) + " & dr("AveUCst") & "  where _etblPriceListPrices.iStockID =  '" & dr("StockLink") & "' "
                     'SQL = " delete from _etblInvJrBatchLines where iStockID = " & dr("WHStockLink") & " and iInvJrBatchID = 23 "

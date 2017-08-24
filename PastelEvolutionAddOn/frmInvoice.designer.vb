@@ -138,6 +138,58 @@ Partial Class frmInvoice
         Dim UltraGridColumn53 As Infragistics.Win.UltraWinGrid.UltraGridColumn = New Infragistics.Win.UltraWinGrid.UltraGridColumn("PrimaryLineID")
         Dim Appearance50 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
         Dim Appearance51 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
+        Dim UltraDataBand1 As Infragistics.Win.UltraWinDataSource.UltraDataBand = New Infragistics.Win.UltraWinDataSource.UltraDataBand("Band 1")
+        Dim UltraDataColumn1 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("LN")
+        Dim UltraDataColumn2 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("SerialNumber")
+        Dim UltraDataColumn3 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("SNStockLink")
+        Dim UltraDataColumn4 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("PrimaryLineID")
+        Dim UltraDataColumn5 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Line")
+        Dim UltraDataColumn6 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Code")
+        Dim UltraDataColumn7 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Description_1")
+        Dim UltraDataColumn8 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Description_2")
+        Dim UltraDataColumn9 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Warehouse")
+        Dim UltraDataColumn10 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Quantity")
+        Dim UltraDataColumn11 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("iUnit")
+        Dim UltraDataColumn12 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("iUnitCate")
+        Dim UltraDataColumn13 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("ProcessedQty")
+        Dim UltraDataColumn14 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("ConfirmQty")
+        Dim UltraDataColumn15 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Price_Excl")
+        Dim UltraDataColumn16 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Price_Incl")
+        Dim UltraDataColumn17 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("TaxType")
+        Dim UltraDataColumn18 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("TaxRate")
+        Dim UltraDataColumn19 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Discount")
+        Dim UltraDataColumn20 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("OrderTotal_Excl")
+        Dim UltraDataColumn21 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("OrderTotal_Incl")
+        Dim UltraDataColumn22 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("OrderTax")
+        Dim UltraDataColumn23 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("LineTax")
+        Dim UltraDataColumn24 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("LineTotal_Excl")
+        Dim UltraDataColumn25 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("LineTotal_Incl")
+        Dim UltraDataColumn26 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Line_Dis_Excl")
+        Dim UltraDataColumn27 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Line_Dis_Incl")
+        Dim UltraDataColumn28 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Order_Dis_Excl")
+        Dim UltraDataColumn29 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Order_Dis_Incl")
+        Dim UltraDataColumn30 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Line_Tax_NoDis_Excl")
+        Dim UltraDataColumn31 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Line_Tax_NoDis_Incl")
+        Dim UltraDataColumn32 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Ord_Tax_NoDis_Excl")
+        Dim UltraDataColumn33 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Ord_Tax_NoDis_Incl")
+        Dim UltraDataColumn34 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("StockID")
+        Dim UltraDataColumn35 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("LineNote")
+        Dim UltraDataColumn36 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("IsLot")
+        Dim UltraDataColumn37 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("IsWH")
+        Dim UltraDataColumn38 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("LineID")
+        Dim UltraDataColumn39 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("SerialLot")
+        Dim UltraDataColumn40 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("fUnitCostMargine")
+        Dim UltraDataColumn41 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("fCostMargine")
+        Dim UltraDataColumn42 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("CostPrice")
+        Dim UltraDataColumn43 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("AvailableQty")
+        Dim UltraDataColumn44 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("BranchQty")
+        Dim UltraDataColumn45 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Lot")
+        Dim UltraDataColumn46 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("fExclPrice")
+        Dim UltraDataColumn47 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("WHMax_Lvl")
+        Dim UltraDataColumn48 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("cSimpleCode")
+        Dim UltraDataColumn49 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("AveUCst")
+        Dim UltraDataColumn50 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Bin")
+        Dim UltraDataColumn51 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Bar_Code")
         Dim UltraDataBand2 As Infragistics.Win.UltraWinDataSource.UltraDataBand = New Infragistics.Win.UltraWinDataSource.UltraDataBand("Band 1")
         Dim UltraDataColumn52 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("LN")
         Dim UltraDataColumn53 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("SerialNumber")
@@ -972,58 +1024,6 @@ Partial Class frmInvoice
         Dim UltraDataColumn844 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("AveUCst")
         Dim UltraDataColumn845 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Bin")
         Dim UltraDataColumn846 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Barcode")
-        Dim UltraDataBand1 As Infragistics.Win.UltraWinDataSource.UltraDataBand = New Infragistics.Win.UltraWinDataSource.UltraDataBand("Band 1")
-        Dim UltraDataColumn1 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("LN")
-        Dim UltraDataColumn2 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("SerialNumber")
-        Dim UltraDataColumn3 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("SNStockLink")
-        Dim UltraDataColumn4 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("PrimaryLineID")
-        Dim UltraDataColumn5 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Line")
-        Dim UltraDataColumn6 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Code")
-        Dim UltraDataColumn7 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Description_1")
-        Dim UltraDataColumn8 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Description_2")
-        Dim UltraDataColumn9 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Warehouse")
-        Dim UltraDataColumn10 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Quantity")
-        Dim UltraDataColumn11 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("iUnit")
-        Dim UltraDataColumn12 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("iUnitCate")
-        Dim UltraDataColumn13 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("ProcessedQty")
-        Dim UltraDataColumn14 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("ConfirmQty")
-        Dim UltraDataColumn15 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Price_Excl")
-        Dim UltraDataColumn16 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Price_Incl")
-        Dim UltraDataColumn17 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("TaxType")
-        Dim UltraDataColumn18 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("TaxRate")
-        Dim UltraDataColumn19 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Discount")
-        Dim UltraDataColumn20 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("OrderTotal_Excl")
-        Dim UltraDataColumn21 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("OrderTotal_Incl")
-        Dim UltraDataColumn22 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("OrderTax")
-        Dim UltraDataColumn23 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("LineTax")
-        Dim UltraDataColumn24 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("LineTotal_Excl")
-        Dim UltraDataColumn25 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("LineTotal_Incl")
-        Dim UltraDataColumn26 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Line_Dis_Excl")
-        Dim UltraDataColumn27 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Line_Dis_Incl")
-        Dim UltraDataColumn28 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Order_Dis_Excl")
-        Dim UltraDataColumn29 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Order_Dis_Incl")
-        Dim UltraDataColumn30 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Line_Tax_NoDis_Excl")
-        Dim UltraDataColumn31 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Line_Tax_NoDis_Incl")
-        Dim UltraDataColumn32 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Ord_Tax_NoDis_Excl")
-        Dim UltraDataColumn33 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Ord_Tax_NoDis_Incl")
-        Dim UltraDataColumn34 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("StockID")
-        Dim UltraDataColumn35 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("LineNote")
-        Dim UltraDataColumn36 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("IsLot")
-        Dim UltraDataColumn37 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("IsWH")
-        Dim UltraDataColumn38 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("LineID")
-        Dim UltraDataColumn39 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("SerialLot")
-        Dim UltraDataColumn40 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("fUnitCostMargine")
-        Dim UltraDataColumn41 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("fCostMargine")
-        Dim UltraDataColumn42 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("CostPrice")
-        Dim UltraDataColumn43 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("AvailableQty")
-        Dim UltraDataColumn44 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("BranchQty")
-        Dim UltraDataColumn45 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Lot")
-        Dim UltraDataColumn46 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("fExclPrice")
-        Dim UltraDataColumn47 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("WHMax_Lvl")
-        Dim UltraDataColumn48 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("cSimpleCode")
-        Dim UltraDataColumn49 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("AveUCst")
-        Dim UltraDataColumn50 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Bin")
-        Dim UltraDataColumn51 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Bar_Code")
         Me.UltraTabPageControl2 = New Infragistics.Win.UltraWinTabControl.UltraTabPageControl()
         Me.txtDeliveryAdd = New Infragistics.Win.UltraWinEditors.UltraTextEditor()
         Me.UltraTabPageControl3 = New Infragistics.Win.UltraWinTabControl.UltraTabPageControl()
@@ -1123,6 +1123,7 @@ Partial Class frmInvoice
         Me.UltraLabel18 = New Infragistics.Win.Misc.UltraLabel()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.UG = New Infragistics.Win.UltraWinGrid.UltraGrid()
+        Me.UltraDataSource18 = New Infragistics.Win.UltraWinDataSource.UltraDataSource(Me.components)
         Me.UltraDataSource16 = New Infragistics.Win.UltraWinDataSource.UltraDataSource(Me.components)
         Me.UltraDataSource14 = New Infragistics.Win.UltraWinDataSource.UltraDataSource(Me.components)
         Me.UltraDataSource13 = New Infragistics.Win.UltraWinDataSource.UltraDataSource(Me.components)
@@ -1155,7 +1156,6 @@ Partial Class frmInvoice
         Me.ugExcelExporter = New Infragistics.Win.UltraWinGrid.ExcelExport.UltraGridExcelExporter(Me.components)
         Me.UltraDataSource15 = New Infragistics.Win.UltraWinDataSource.UltraDataSource(Me.components)
         Me.UltraDataSource17 = New Infragistics.Win.UltraWinDataSource.UltraDataSource(Me.components)
-        Me.UltraDataSource18 = New Infragistics.Win.UltraWinDataSource.UltraDataSource(Me.components)
         Me.UltraTabPageControl2.SuspendLayout()
         CType(Me.txtDeliveryAdd, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.UltraTabPageControl3.SuspendLayout()
@@ -1195,6 +1195,7 @@ Partial Class frmInvoice
         CType(Me.UltraGroupBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.UltraGroupBox2.SuspendLayout()
         CType(Me.UG, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.UltraDataSource18, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.UltraDataSource16, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.UltraDataSource14, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.UltraDataSource13, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1221,7 +1222,6 @@ Partial Class frmInvoice
         CType(Me.DDLot, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.UltraDataSource15, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.UltraDataSource17, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.UltraDataSource18, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'UltraTabPageControl2
@@ -1966,7 +1966,6 @@ Partial Class frmInvoice
         Me.ToolStripButton2.Name = "ToolStripButton2"
         Me.ToolStripButton2.Size = New System.Drawing.Size(23, 22)
         Me.ToolStripButton2.Text = "Fix IBT Link"
-        Me.ToolStripButton2.Visible = False
         '
         'UltraLabel1
         '
@@ -2280,7 +2279,6 @@ Partial Class frmInvoice
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.UG.CalcManager = Me.CM
-        Me.UG.DataMember = Nothing
         Me.UG.DataSource = Me.UltraDataSource18
         Appearance26.BorderColor = System.Drawing.Color.Silver
         Me.UG.DisplayLayout.Appearance = Appearance26
@@ -2316,7 +2314,7 @@ Partial Class frmInvoice
         UltraGridColumn5.Header.Caption = "WH"
         UltraGridColumn5.Header.VisiblePosition = 5
         UltraGridColumn5.NullText = "0"
-        UltraGridColumn5.Width = 47
+        UltraGridColumn5.Width = 39
         Appearance28.TextHAlignAsString = "Right"
         UltraGridColumn6.CellAppearance = Appearance28
         UltraGridColumn6.DefaultCellValue = "0"
@@ -2326,7 +2324,7 @@ Partial Class frmInvoice
         UltraGridColumn6.Width = 42
         UltraGridColumn7.Header.Caption = "Unit"
         UltraGridColumn7.Header.VisiblePosition = 6
-        UltraGridColumn7.Width = 28
+        UltraGridColumn7.Width = 37
         UltraGridColumn8.CellActivation = Infragistics.Win.UltraWinGrid.Activation.Disabled
         Appearance29.BackColorDisabled = System.Drawing.Color.Silver
         UltraGridColumn8.CellAppearance = Appearance29
@@ -2538,7 +2536,7 @@ Partial Class frmInvoice
         UltraGridColumn36.CellAppearance = Appearance45
         UltraGridColumn36.Header.Caption = "Margin(%)"
         UltraGridColumn36.Header.VisiblePosition = 11
-        UltraGridColumn36.Width = 58
+        UltraGridColumn36.Width = 57
         UltraGridColumn37.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit
         Appearance46.TextHAlignAsString = "Right"
         UltraGridColumn37.CellAppearance = Appearance46
@@ -2582,6 +2580,7 @@ Partial Class frmInvoice
         UltraGridColumn46.Header.VisiblePosition = 14
         UltraGridColumn46.Width = 82
         UltraGridColumn47.Header.VisiblePosition = 46
+        UltraGridColumn47.Width = 100
         UltraGridColumn48.Header.VisiblePosition = 47
         UltraGridColumn49.ButtonDisplayStyle = Infragistics.Win.UltraWinGrid.ButtonDisplayStyle.Always
         UltraGridColumn49.Header.VisiblePosition = 48
@@ -2590,9 +2589,9 @@ Partial Class frmInvoice
         UltraGridColumn49.Width = 53
         UltraGridBand1.Columns.AddRange(New Object() {UltraGridColumn1, UltraGridColumn2, UltraGridColumn3, UltraGridColumn4, UltraGridColumn5, UltraGridColumn6, UltraGridColumn7, UltraGridColumn8, UltraGridColumn9, UltraGridColumn10, UltraGridColumn11, UltraGridColumn12, UltraGridColumn13, UltraGridColumn14, UltraGridColumn15, UltraGridColumn16, UltraGridColumn17, UltraGridColumn18, UltraGridColumn19, UltraGridColumn20, UltraGridColumn21, UltraGridColumn22, UltraGridColumn23, UltraGridColumn24, UltraGridColumn25, UltraGridColumn26, UltraGridColumn27, UltraGridColumn28, UltraGridColumn29, UltraGridColumn30, UltraGridColumn31, UltraGridColumn32, UltraGridColumn33, UltraGridColumn34, UltraGridColumn35, UltraGridColumn36, UltraGridColumn37, UltraGridColumn38, UltraGridColumn39, UltraGridColumn40, UltraGridColumn41, UltraGridColumn42, UltraGridColumn43, UltraGridColumn44, UltraGridColumn45, UltraGridColumn46, UltraGridColumn47, UltraGridColumn48, UltraGridColumn49})
         UltraGridColumn50.Header.VisiblePosition = 0
-        UltraGridColumn50.Width = 181
+        UltraGridColumn50.Width = 179
         UltraGridColumn51.Header.VisiblePosition = 1
-        UltraGridColumn51.Width = 325
+        UltraGridColumn51.Width = 327
         UltraGridColumn52.Header.VisiblePosition = 2
         UltraGridColumn52.Width = 226
         UltraGridColumn53.Header.VisiblePosition = 3
@@ -2614,6 +2613,51 @@ Partial Class frmInvoice
         Me.UG.Name = "UG"
         Me.UG.Size = New System.Drawing.Size(1028, 312)
         Me.UG.TabIndex = 15
+        '
+        'UltraDataSource18
+        '
+        UltraDataColumn1.DataType = GetType(Long)
+        UltraDataColumn3.DataType = GetType(Long)
+        UltraDataColumn4.DataType = GetType(Long)
+        UltraDataBand1.Columns.AddRange(New Object() {UltraDataColumn1, UltraDataColumn2, UltraDataColumn3, UltraDataColumn4})
+        Me.UltraDataSource18.Band.ChildBands.AddRange(New Object() {UltraDataBand1})
+        UltraDataColumn5.DataType = GetType(Long)
+        UltraDataColumn9.DataType = GetType(Long)
+        UltraDataColumn10.DataType = GetType(Double)
+        UltraDataColumn11.DataType = GetType(Long)
+        UltraDataColumn13.DataType = GetType(Double)
+        UltraDataColumn14.DataType = GetType(Double)
+        UltraDataColumn15.DataType = GetType(Double)
+        UltraDataColumn16.DataType = GetType(Double)
+        UltraDataColumn17.DataType = GetType(Long)
+        UltraDataColumn18.DataType = GetType(Double)
+        UltraDataColumn19.DataType = GetType(Double)
+        UltraDataColumn20.DataType = GetType(Double)
+        UltraDataColumn21.DataType = GetType(Double)
+        UltraDataColumn22.DataType = GetType(Double)
+        UltraDataColumn23.DataType = GetType(Double)
+        UltraDataColumn24.DataType = GetType(Double)
+        UltraDataColumn25.DataType = GetType(Double)
+        UltraDataColumn26.DataType = GetType(Double)
+        UltraDataColumn27.DataType = GetType(Double)
+        UltraDataColumn28.DataType = GetType(Double)
+        UltraDataColumn29.DataType = GetType(Double)
+        UltraDataColumn30.DataType = GetType(Double)
+        UltraDataColumn31.DataType = GetType(Double)
+        UltraDataColumn32.DataType = GetType(Double)
+        UltraDataColumn33.DataType = GetType(Double)
+        UltraDataColumn34.DataType = GetType(Long)
+        UltraDataColumn36.DataType = GetType(Boolean)
+        UltraDataColumn37.DataType = GetType(Boolean)
+        UltraDataColumn38.DataType = GetType(Long)
+        UltraDataColumn40.DataType = GetType(Double)
+        UltraDataColumn41.DataType = GetType(Double)
+        UltraDataColumn42.DataType = GetType(Double)
+        UltraDataColumn46.DataType = GetType(Double)
+        UltraDataColumn47.DataType = GetType(Double)
+        UltraDataColumn49.DataType = GetType(Double)
+        Me.UltraDataSource18.Band.Columns.AddRange(New Object() {UltraDataColumn5, UltraDataColumn6, UltraDataColumn7, UltraDataColumn8, UltraDataColumn9, UltraDataColumn10, UltraDataColumn11, UltraDataColumn12, UltraDataColumn13, UltraDataColumn14, UltraDataColumn15, UltraDataColumn16, UltraDataColumn17, UltraDataColumn18, UltraDataColumn19, UltraDataColumn20, UltraDataColumn21, UltraDataColumn22, UltraDataColumn23, UltraDataColumn24, UltraDataColumn25, UltraDataColumn26, UltraDataColumn27, UltraDataColumn28, UltraDataColumn29, UltraDataColumn30, UltraDataColumn31, UltraDataColumn32, UltraDataColumn33, UltraDataColumn34, UltraDataColumn35, UltraDataColumn36, UltraDataColumn37, UltraDataColumn38, UltraDataColumn39, UltraDataColumn40, UltraDataColumn41, UltraDataColumn42, UltraDataColumn43, UltraDataColumn44, UltraDataColumn45, UltraDataColumn46, UltraDataColumn47, UltraDataColumn48, UltraDataColumn49, UltraDataColumn50, UltraDataColumn51})
+        Me.UltraDataSource18.UseBindingSource = True
         '
         'UltraDataSource16
         '
@@ -3575,51 +3619,6 @@ Partial Class frmInvoice
         Me.UltraDataSource17.Band.Columns.AddRange(New Object() {UltraDataColumn800, UltraDataColumn801, UltraDataColumn802, UltraDataColumn803, UltraDataColumn804, UltraDataColumn805, UltraDataColumn806, UltraDataColumn807, UltraDataColumn808, UltraDataColumn809, UltraDataColumn810, UltraDataColumn811, UltraDataColumn812, UltraDataColumn813, UltraDataColumn814, UltraDataColumn815, UltraDataColumn816, UltraDataColumn817, UltraDataColumn818, UltraDataColumn819, UltraDataColumn820, UltraDataColumn821, UltraDataColumn822, UltraDataColumn823, UltraDataColumn824, UltraDataColumn825, UltraDataColumn826, UltraDataColumn827, UltraDataColumn828, UltraDataColumn829, UltraDataColumn830, UltraDataColumn831, UltraDataColumn832, UltraDataColumn833, UltraDataColumn834, UltraDataColumn835, UltraDataColumn836, UltraDataColumn837, UltraDataColumn838, UltraDataColumn839, UltraDataColumn840, UltraDataColumn841, UltraDataColumn842, UltraDataColumn843, UltraDataColumn844, UltraDataColumn845, UltraDataColumn846})
         Me.UltraDataSource17.UseBindingSource = True
         '
-        'UltraDataSource18
-        '
-        UltraDataColumn1.DataType = GetType(Long)
-        UltraDataColumn3.DataType = GetType(Long)
-        UltraDataColumn4.DataType = GetType(Long)
-        UltraDataBand1.Columns.AddRange(New Object() {UltraDataColumn1, UltraDataColumn2, UltraDataColumn3, UltraDataColumn4})
-        Me.UltraDataSource18.Band.ChildBands.AddRange(New Object() {UltraDataBand1})
-        UltraDataColumn5.DataType = GetType(Long)
-        UltraDataColumn9.DataType = GetType(Long)
-        UltraDataColumn10.DataType = GetType(Double)
-        UltraDataColumn11.DataType = GetType(Long)
-        UltraDataColumn13.DataType = GetType(Double)
-        UltraDataColumn14.DataType = GetType(Double)
-        UltraDataColumn15.DataType = GetType(Double)
-        UltraDataColumn16.DataType = GetType(Double)
-        UltraDataColumn17.DataType = GetType(Long)
-        UltraDataColumn18.DataType = GetType(Double)
-        UltraDataColumn19.DataType = GetType(Double)
-        UltraDataColumn20.DataType = GetType(Double)
-        UltraDataColumn21.DataType = GetType(Double)
-        UltraDataColumn22.DataType = GetType(Double)
-        UltraDataColumn23.DataType = GetType(Double)
-        UltraDataColumn24.DataType = GetType(Double)
-        UltraDataColumn25.DataType = GetType(Double)
-        UltraDataColumn26.DataType = GetType(Double)
-        UltraDataColumn27.DataType = GetType(Double)
-        UltraDataColumn28.DataType = GetType(Double)
-        UltraDataColumn29.DataType = GetType(Double)
-        UltraDataColumn30.DataType = GetType(Double)
-        UltraDataColumn31.DataType = GetType(Double)
-        UltraDataColumn32.DataType = GetType(Double)
-        UltraDataColumn33.DataType = GetType(Double)
-        UltraDataColumn34.DataType = GetType(Long)
-        UltraDataColumn36.DataType = GetType(Boolean)
-        UltraDataColumn37.DataType = GetType(Boolean)
-        UltraDataColumn38.DataType = GetType(Long)
-        UltraDataColumn40.DataType = GetType(Double)
-        UltraDataColumn41.DataType = GetType(Double)
-        UltraDataColumn42.DataType = GetType(Double)
-        UltraDataColumn46.DataType = GetType(Double)
-        UltraDataColumn47.DataType = GetType(Double)
-        UltraDataColumn49.DataType = GetType(Double)
-        Me.UltraDataSource18.Band.Columns.AddRange(New Object() {UltraDataColumn5, UltraDataColumn6, UltraDataColumn7, UltraDataColumn8, UltraDataColumn9, UltraDataColumn10, UltraDataColumn11, UltraDataColumn12, UltraDataColumn13, UltraDataColumn14, UltraDataColumn15, UltraDataColumn16, UltraDataColumn17, UltraDataColumn18, UltraDataColumn19, UltraDataColumn20, UltraDataColumn21, UltraDataColumn22, UltraDataColumn23, UltraDataColumn24, UltraDataColumn25, UltraDataColumn26, UltraDataColumn27, UltraDataColumn28, UltraDataColumn29, UltraDataColumn30, UltraDataColumn31, UltraDataColumn32, UltraDataColumn33, UltraDataColumn34, UltraDataColumn35, UltraDataColumn36, UltraDataColumn37, UltraDataColumn38, UltraDataColumn39, UltraDataColumn40, UltraDataColumn41, UltraDataColumn42, UltraDataColumn43, UltraDataColumn44, UltraDataColumn45, UltraDataColumn46, UltraDataColumn47, UltraDataColumn48, UltraDataColumn49, UltraDataColumn50, UltraDataColumn51})
-        Me.UltraDataSource18.UseBindingSource = True
-        '
         'frmInvoice
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -3700,6 +3699,7 @@ Partial Class frmInvoice
         CType(Me.UltraGroupBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.UltraGroupBox2.ResumeLayout(False)
         CType(Me.UG, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.UltraDataSource18, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.UltraDataSource16, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.UltraDataSource14, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.UltraDataSource13, System.ComponentModel.ISupportInitialize).EndInit()
@@ -3727,7 +3727,6 @@ Partial Class frmInvoice
         CType(Me.DDLot, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.UltraDataSource15, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.UltraDataSource17, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.UltraDataSource18, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
