@@ -188,6 +188,12 @@
     <Compile Include="frmCreditNote.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmCustomerSMS.Designer.vb">
+      <DependentUpon>frmCustomerSMS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerSMS.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmExpDate.Designer.vb">
       <DependentUpon>frmExpDate.vb</DependentUpon>
     </Compile>
@@ -416,6 +422,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
     </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -436,6 +447,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmCreditNote.resx">
       <DependentUpon>frmCreditNote.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerSMS.resx">
+      <DependentUpon>frmCustomerSMS.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmExpDate.resx">
       <DependentUpon>frmExpDate.vb</DependentUpon>
@@ -579,6 +593,7 @@
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -629,6 +644,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="addons.ico" />
+    <None Include="Resources\download.jpg" />
     <None Include="PastelEvolutionAddOn_1_TemporaryKey.pfx" />
     <None Include="PastelEvolutionAddOn_2_TemporaryKey.pfx" />
     <None Include="PastelEvolutionAddOn_TemporaryKey.pfx" />

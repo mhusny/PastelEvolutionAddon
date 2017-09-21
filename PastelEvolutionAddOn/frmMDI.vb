@@ -211,6 +211,8 @@ Public Class frmMDI
                 frmLV_SO.LV.Items(19).Visible = True
             ElseIf Dr("iManu") = 2227 Then
                 frmLV_SO.LV.Items(20).Visible = True
+            ElseIf Dr("iManu") = 2218 Then
+                frmLV_SO.LV.Items(24).Visible = True
             End If
         Next
         frmLV_SO.Show()

@@ -78,8 +78,10 @@ Partial Class frmLV_SO
         Dim Appearance24 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
         Dim UltraListViewItem24 As Infragistics.Win.UltraWinListView.UltraListViewItem = New Infragistics.Win.UltraWinListView.UltraListViewItem("Import Cost & Price", New Infragistics.Win.UltraWinListView.UltraListViewSubItem() {New Infragistics.Win.UltraWinListView.UltraListViewSubItem("Maintenance", Nothing)}, Nothing)
         Dim Appearance25 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
+        Dim UltraListViewItem25 As Infragistics.Win.UltraWinListView.UltraListViewItem = New Infragistics.Win.UltraWinListView.UltraListViewItem("Cutomer SMS", New Infragistics.Win.UltraWinListView.UltraListViewSubItem() {New Infragistics.Win.UltraWinListView.UltraListViewSubItem("Maintenance", Nothing)}, Nothing)
         Dim Appearance26 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
         Dim Appearance27 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
+        Dim Appearance28 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
         Dim UltraListViewSubItemColumn1 As Infragistics.Win.UltraWinListView.UltraListViewSubItemColumn = New Infragistics.Win.UltraWinListView.UltraListViewSubItemColumn("Type")
         Me.lbl = New Infragistics.Win.Misc.UltraLabel()
         Me.LV = New Infragistics.Win.UltraWinListView.UltraListView()
@@ -239,12 +241,17 @@ Partial Class frmLV_SO
         UltraListViewItem24.Appearance = Appearance25
         UltraListViewItem24.Key = "24"
         UltraListViewItem24.Visible = False
-        Me.LV.Items.AddRange(New Infragistics.Win.UltraWinListView.UltraListViewItem() {UltraListViewItem1, UltraListViewItem2, UltraListViewItem3, UltraListViewItem4, UltraListViewItem5, UltraListViewItem6, UltraListViewItem7, UltraListViewItem8, UltraListViewItem9, UltraListViewItem10, UltraListViewItem11, UltraListViewItem12, UltraListViewItem13, UltraListViewItem14, UltraListViewItem15, UltraListViewItem16, UltraListViewItem17, UltraListViewItem18, UltraListViewItem19, UltraListViewItem20, UltraListViewItem21, UltraListViewItem22, UltraListViewItem23, UltraListViewItem24})
+        Appearance26.Image = Global.PastelEvolutionAddOn.My.Resources.Resources.download
+        Appearance26.ImageBackgroundStyle = Infragistics.Win.ImageBackgroundStyle.Stretched
+        UltraListViewItem25.Appearance = Appearance26
+        UltraListViewItem25.Key = "25"
+        UltraListViewItem25.Visible = False
+        Me.LV.Items.AddRange(New Infragistics.Win.UltraWinListView.UltraListViewItem() {UltraListViewItem1, UltraListViewItem2, UltraListViewItem3, UltraListViewItem4, UltraListViewItem5, UltraListViewItem6, UltraListViewItem7, UltraListViewItem8, UltraListViewItem9, UltraListViewItem10, UltraListViewItem11, UltraListViewItem12, UltraListViewItem13, UltraListViewItem14, UltraListViewItem15, UltraListViewItem16, UltraListViewItem17, UltraListViewItem18, UltraListViewItem19, UltraListViewItem20, UltraListViewItem21, UltraListViewItem22, UltraListViewItem23, UltraListViewItem24, UltraListViewItem25})
         Me.LV.ItemSettings.HotTracking = True
-        Appearance26.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.LV.ItemSettings.HotTrackingAppearance = Appearance26
         Appearance27.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.LV.ItemSettings.SelectedAppearance = Appearance27
+        Me.LV.ItemSettings.HotTrackingAppearance = Appearance27
+        Appearance28.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.LV.ItemSettings.SelectedAppearance = Appearance28
         Me.LV.Location = New System.Drawing.Point(0, 55)
         Me.LV.Name = "LV"
         Me.LV.Size = New System.Drawing.Size(851, 433)

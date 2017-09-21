@@ -285,6 +285,9 @@ Public Class frmLV_SO
             ElseIf LV.SelectedItems(0).Key = "24" Then
                 Dim impCost = New frmPriceCostUpddate()
                 impCost.Show()
+            ElseIf LV.SelectedItems(0).Key = "25" Then
+                Dim csms = New frmCustomerSMS()
+                csms.Show()
             End If
 
             LV.SelectedItems.Clear()

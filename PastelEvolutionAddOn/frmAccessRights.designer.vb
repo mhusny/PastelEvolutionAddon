@@ -100,11 +100,11 @@ Partial Class frmAccessRights
         Dim Override37 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode41 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim Override38 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
-        Dim Override39 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode42 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
+        Dim Override39 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
+        Dim Override40 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode43 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim UltraTreeNode44 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
-        Dim Override40 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode45 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim Override41 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode46 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
@@ -127,10 +127,10 @@ Partial Class frmAccessRights
         Dim Override50 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode55 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim Override51 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
-        Dim Override52 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode56 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
-        Dim UltraTreeNode57 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
+        Dim Override52 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim Override53 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
+        Dim UltraTreeNode57 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim UltraTreeNode58 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim Override54 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode59 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
@@ -145,10 +145,10 @@ Partial Class frmAccessRights
         Dim Override59 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode64 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim Override60 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
-        Dim Override61 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode65 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
-        Dim UltraTreeNode66 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
+        Dim Override61 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim Override62 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
+        Dim UltraTreeNode66 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim UltraTreeNode67 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim Override63 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode68 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
@@ -157,10 +157,10 @@ Partial Class frmAccessRights
         Dim Override65 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode70 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim Override66 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
-        Dim Override67 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode71 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
-        Dim UltraTreeNode72 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
+        Dim Override67 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim Override68 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
+        Dim UltraTreeNode72 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim UltraTreeNode73 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim Override69 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode74 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
@@ -171,32 +171,32 @@ Partial Class frmAccessRights
         Dim Override72 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode77 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim Override73 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
-        Dim Override74 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode78 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
+        Dim Override74 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim Override75 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode79 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim Override76 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode80 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim Override77 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
-        Dim Override78 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode81 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
+        Dim Override78 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
+        Dim Override79 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode82 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim UltraTreeNode83 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
-        Dim Override79 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
-        Dim Override80 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode84 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
+        Dim Override80 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim Override81 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode85 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim Override82 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
-        Dim Override83 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode86 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
+        Dim Override83 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim Override84 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode87 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim Override85 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
-        Dim Override86 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode88 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
-        Dim UltraTreeNode89 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
+        Dim Override86 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim Override87 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
+        Dim UltraTreeNode89 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim UltraTreeNode90 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim Override88 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode91 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
@@ -205,10 +205,12 @@ Partial Class frmAccessRights
         Dim Override90 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode93 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim Override91 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
-        Dim Override92 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim UltraTreeNode94 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
+        Dim Override92 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim Override93 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
+        Dim UltraTreeNode95 As Infragistics.Win.UltraWinTree.UltraTreeNode = New Infragistics.Win.UltraWinTree.UltraTreeNode()
         Dim Override94 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
+        Dim Override95 As Infragistics.Win.UltraWinTree.Override = New Infragistics.Win.UltraWinTree.Override()
         Dim Appearance3 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
         Dim Appearance4 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmAccessRights))
@@ -244,8 +246,8 @@ Partial Class frmAccessRights
         'UG
         '
         Me.UG.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Appearance1.BorderColor = System.Drawing.Color.Silver
         Me.UG.DisplayLayout.Appearance = Appearance1
         Me.UG.DisplayLayout.AutoFitStyle = Infragistics.Win.UltraWinGrid.AutoFitStyle.ResizeAllColumns
@@ -272,15 +274,15 @@ Partial Class frmAccessRights
         Me.UltraTabPageControl2.Controls.Add(Me.TC)
         Me.UltraTabPageControl2.Controls.Add(Me.CB_Apply)
         Me.UltraTabPageControl2.Enabled = False
-        Me.UltraTabPageControl2.Location = New System.Drawing.Point(2, 24)
+        Me.UltraTabPageControl2.Location = New System.Drawing.Point(1, 23)
         Me.UltraTabPageControl2.Name = "UltraTabPageControl2"
         Me.UltraTabPageControl2.Size = New System.Drawing.Size(589, 340)
         '
         'TC
         '
         Me.TC.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TC.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TC.ImageTransparentColor = System.Drawing.Color.Transparent
         Me.TC.Location = New System.Drawing.Point(1, 2)
@@ -444,243 +446,247 @@ Partial Class frmAccessRights
         UltraTreeNode41.Override = Override38
         UltraTreeNode41.Tag = "2216"
         UltraTreeNode41.Text = "Supplier Price List"
-        UltraTreeNode35.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode36, UltraTreeNode37, UltraTreeNode38, UltraTreeNode39, UltraTreeNode40, UltraTreeNode41})
         Override39.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode35.Override = Override39
+        UltraTreeNode42.Override = Override39
+        UltraTreeNode42.Tag = "2218"
+        UltraTreeNode42.Text = "Customer SMS"
+        UltraTreeNode35.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode36, UltraTreeNode37, UltraTreeNode38, UltraTreeNode39, UltraTreeNode40, UltraTreeNode41, UltraTreeNode42})
+        Override40.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
+        UltraTreeNode35.Override = Override40
         UltraTreeNode35.Tag = CType(221, Long)
         UltraTreeNode35.Text = "Maintenance"
-        Override40.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode44.Override = Override40
-        UltraTreeNode44.Tag = "22211"
-        UltraTreeNode44.Text = "Save Sales Order"
         Override41.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode45.Override = Override41
-        UltraTreeNode45.Tag = "22212"
-        UltraTreeNode45.Text = "Edit Sales Order"
+        UltraTreeNode45.Tag = "22211"
+        UltraTreeNode45.Text = "Save Sales Order"
         Override42.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode46.Override = Override42
-        UltraTreeNode46.Tag = "22213"
-        UltraTreeNode46.Text = "Price Hide"
+        UltraTreeNode46.Tag = "22212"
+        UltraTreeNode46.Text = "Edit Sales Order"
         Override43.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode47.Override = Override43
-        UltraTreeNode47.Tag = "22214"
-        UltraTreeNode47.Text = "Open Sales Order"
+        UltraTreeNode47.Tag = "22213"
+        UltraTreeNode47.Text = "Price Hide"
         Override44.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode48.Override = Override44
-        UltraTreeNode48.Tag = "22215"
-        UltraTreeNode48.Text = "Allow override credit limit"
+        UltraTreeNode48.Tag = "22214"
+        UltraTreeNode48.Text = "Open Sales Order"
         Override45.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode49.Override = Override45
-        UltraTreeNode49.Tag = "22216"
-        UltraTreeNode49.Text = "Disable Date Editing"
+        UltraTreeNode49.Tag = "22215"
+        UltraTreeNode49.Text = "Allow override credit limit"
         Override46.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode50.Override = Override46
-        UltraTreeNode50.Tag = "22217"
-        UltraTreeNode50.Text = "Disable Description Editing"
+        UltraTreeNode50.Tag = "22216"
+        UltraTreeNode50.Text = "Disable Date Editing"
         Override47.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode51.Override = Override47
-        UltraTreeNode51.Tag = "22218"
-        UltraTreeNode51.Text = "Disable Select Rep"
+        UltraTreeNode51.Tag = "22217"
+        UltraTreeNode51.Text = "Disable Description Editing"
         Override48.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode52.Override = Override48
-        UltraTreeNode52.Tag = "22219"
-        UltraTreeNode52.Text = "Allow Change Line Discount"
+        UltraTreeNode52.Tag = "22218"
+        UltraTreeNode52.Text = "Disable Select Rep"
         Override49.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode53.Override = Override49
-        UltraTreeNode53.Tag = "22220"
-        UltraTreeNode53.Text = "Disable Change Price"
+        UltraTreeNode53.Tag = "22219"
+        UltraTreeNode53.Text = "Allow Change Line Discount"
         Override50.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode54.Override = Override50
-        UltraTreeNode54.Tag = "22221"
-        UltraTreeNode54.Text = "Disable Preview Sales Order"
-        UltraTreeNode54.Visible = False
+        UltraTreeNode54.Tag = "22220"
+        UltraTreeNode54.Text = "Disable Change Price"
         Override51.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode55.Override = Override51
-        UltraTreeNode55.Tag = "22222"
-        UltraTreeNode55.Text = "Diasble Repring Sales Order"
-        UltraTreeNode43.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode44, UltraTreeNode45, UltraTreeNode46, UltraTreeNode47, UltraTreeNode48, UltraTreeNode49, UltraTreeNode50, UltraTreeNode51, UltraTreeNode52, UltraTreeNode53, UltraTreeNode54, UltraTreeNode55})
+        UltraTreeNode55.Tag = "22221"
+        UltraTreeNode55.Text = "Disable Preview Sales Order"
+        UltraTreeNode55.Visible = False
         Override52.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode43.Override = Override52
-        UltraTreeNode43.Tag = "2221"
-        UltraTreeNode43.Text = "Sales Order"
+        UltraTreeNode56.Override = Override52
+        UltraTreeNode56.Tag = "22222"
+        UltraTreeNode56.Text = "Diasble Repring Sales Order"
+        UltraTreeNode44.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode45, UltraTreeNode46, UltraTreeNode47, UltraTreeNode48, UltraTreeNode49, UltraTreeNode50, UltraTreeNode51, UltraTreeNode52, UltraTreeNode53, UltraTreeNode54, UltraTreeNode55, UltraTreeNode56})
         Override53.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode57.Override = Override53
-        UltraTreeNode57.Tag = "22221"
-        UltraTreeNode57.Text = "Save Purchase Order"
+        UltraTreeNode44.Override = Override53
+        UltraTreeNode44.Tag = "2221"
+        UltraTreeNode44.Text = "Sales Order"
         Override54.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode58.Override = Override54
-        UltraTreeNode58.Tag = "22222"
-        UltraTreeNode58.Text = "Edit Purchase Order"
+        UltraTreeNode58.Tag = "22221"
+        UltraTreeNode58.Text = "Save Purchase Order"
         Override55.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode59.Override = Override55
-        UltraTreeNode59.Tag = "22223"
-        UltraTreeNode59.Text = "Price Hide"
+        UltraTreeNode59.Tag = "22222"
+        UltraTreeNode59.Text = "Edit Purchase Order"
         Override56.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode60.Override = Override56
-        UltraTreeNode60.Tag = "22224"
-        UltraTreeNode60.Text = "Process Purchase Order"
+        UltraTreeNode60.Tag = "22223"
+        UltraTreeNode60.Text = "Price Hide"
         Override57.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode61.Override = Override57
-        UltraTreeNode61.Tag = "22225"
-        UltraTreeNode61.Text = "Open Purchase Order"
+        UltraTreeNode61.Tag = "22224"
+        UltraTreeNode61.Text = "Process Purchase Order"
         Override58.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode62.Override = Override58
-        UltraTreeNode62.Tag = "22226"
-        UltraTreeNode62.Text = "Check-IN PO"
+        UltraTreeNode62.Tag = "22225"
+        UltraTreeNode62.Text = "Open Purchase Order"
         Override59.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode63.Override = Override59
-        UltraTreeNode63.Tag = "22227"
-        UltraTreeNode63.Text = "Hide Column Chooser"
+        UltraTreeNode63.Tag = "22226"
+        UltraTreeNode63.Text = "Check-IN PO"
         Override60.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode64.Override = Override60
-        UltraTreeNode64.Tag = "22228"
-        UltraTreeNode64.Text = "Disable Edit Purchase Order"
-        UltraTreeNode56.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode57, UltraTreeNode58, UltraTreeNode59, UltraTreeNode60, UltraTreeNode61, UltraTreeNode62, UltraTreeNode63, UltraTreeNode64})
+        UltraTreeNode64.Tag = "22227"
+        UltraTreeNode64.Text = "Hide Column Chooser"
         Override61.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode56.Override = Override61
-        UltraTreeNode56.Tag = "2222"
-        UltraTreeNode56.Text = "Purchase Order"
+        UltraTreeNode65.Override = Override61
+        UltraTreeNode65.Tag = "22228"
+        UltraTreeNode65.Text = "Disable Edit Purchase Order"
+        UltraTreeNode57.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode58, UltraTreeNode59, UltraTreeNode60, UltraTreeNode61, UltraTreeNode62, UltraTreeNode63, UltraTreeNode64, UltraTreeNode65})
         Override62.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode66.Override = Override62
-        UltraTreeNode66.Tag = "22231"
-        UltraTreeNode66.Text = "Save"
+        UltraTreeNode57.Override = Override62
+        UltraTreeNode57.Tag = "2222"
+        UltraTreeNode57.Text = "Purchase Order"
         Override63.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode67.Override = Override63
-        UltraTreeNode67.Tag = "22232"
-        UltraTreeNode67.Text = "Process"
+        UltraTreeNode67.Tag = "22231"
+        UltraTreeNode67.Text = "Save"
         Override64.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode68.Override = Override64
-        UltraTreeNode68.Tag = "22233"
-        UltraTreeNode68.Text = "Price Hide"
+        UltraTreeNode68.Tag = "22232"
+        UltraTreeNode68.Text = "Process"
         Override65.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode69.Override = Override65
-        UltraTreeNode69.Tag = "22234"
-        UltraTreeNode69.Text = "Margin Hide"
+        UltraTreeNode69.Tag = "22233"
+        UltraTreeNode69.Text = "Price Hide"
         Override66.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode70.Override = Override66
-        UltraTreeNode70.Tag = "22235"
-        UltraTreeNode70.Text = "Dissable Date Editing"
-        UltraTreeNode65.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode66, UltraTreeNode67, UltraTreeNode68, UltraTreeNode69, UltraTreeNode70})
+        UltraTreeNode70.Tag = "22234"
+        UltraTreeNode70.Text = "Margin Hide"
         Override67.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode65.Override = Override67
-        UltraTreeNode65.Tag = "2223"
-        UltraTreeNode65.Text = "IBT Issue"
+        UltraTreeNode71.Override = Override67
+        UltraTreeNode71.Tag = "22235"
+        UltraTreeNode71.Text = "Dissable Date Editing"
+        UltraTreeNode66.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode67, UltraTreeNode68, UltraTreeNode69, UltraTreeNode70, UltraTreeNode71})
         Override68.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode72.Override = Override68
-        UltraTreeNode72.Tag = "22241"
-        UltraTreeNode72.Text = "Save"
+        UltraTreeNode66.Override = Override68
+        UltraTreeNode66.Tag = "2223"
+        UltraTreeNode66.Text = "IBT Issue"
         Override69.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode73.Override = Override69
-        UltraTreeNode73.Tag = "22242"
-        UltraTreeNode73.Text = "Edit"
+        UltraTreeNode73.Tag = "22241"
+        UltraTreeNode73.Text = "Save"
         Override70.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode74.Override = Override70
-        UltraTreeNode74.Tag = "22243"
-        UltraTreeNode74.Text = "Price Hide"
+        UltraTreeNode74.Tag = "22242"
+        UltraTreeNode74.Text = "Edit"
         Override71.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode75.Override = Override71
-        UltraTreeNode75.Tag = "22244"
-        UltraTreeNode75.Text = "Process"
+        UltraTreeNode75.Tag = "22243"
+        UltraTreeNode75.Text = "Price Hide"
         Override72.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode76.Override = Override72
-        UltraTreeNode76.Tag = "22245"
-        UltraTreeNode76.Text = "Open"
+        UltraTreeNode76.Tag = "22244"
+        UltraTreeNode76.Text = "Process"
         Override73.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode77.Override = Override73
-        UltraTreeNode77.Tag = "22246"
-        UltraTreeNode77.Text = "Generate SN"
-        UltraTreeNode71.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode72, UltraTreeNode73, UltraTreeNode74, UltraTreeNode75, UltraTreeNode76, UltraTreeNode77})
+        UltraTreeNode77.Tag = "22245"
+        UltraTreeNode77.Text = "Open"
         Override74.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode71.Override = Override74
-        UltraTreeNode71.Tag = "2224"
-        UltraTreeNode71.Text = "IBT Receive"
+        UltraTreeNode78.Override = Override74
+        UltraTreeNode78.Tag = "22246"
+        UltraTreeNode78.Text = "Generate SN"
+        UltraTreeNode72.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode73, UltraTreeNode74, UltraTreeNode75, UltraTreeNode76, UltraTreeNode77, UltraTreeNode78})
         Override75.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode78.Override = Override75
-        UltraTreeNode78.Tag = "2225"
-        UltraTreeNode78.Text = "Stock Count"
+        UltraTreeNode72.Override = Override75
+        UltraTreeNode72.Tag = "2224"
+        UltraTreeNode72.Text = "IBT Receive"
         Override76.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode79.Override = Override76
-        UltraTreeNode79.Tag = "2226"
-        UltraTreeNode79.Text = "Return to Supplier"
+        UltraTreeNode79.Tag = "2225"
+        UltraTreeNode79.Text = "Stock Count"
         Override77.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode80.Override = Override77
-        UltraTreeNode80.Tag = "2227"
-        UltraTreeNode80.Text = "Credit Note"
-        UltraTreeNode42.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode43, UltraTreeNode56, UltraTreeNode65, UltraTreeNode71, UltraTreeNode78, UltraTreeNode79, UltraTreeNode80})
+        UltraTreeNode80.Tag = "2226"
+        UltraTreeNode80.Text = "Return to Supplier"
         Override78.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode42.Override = Override78
-        UltraTreeNode42.Tag = CType(222, Long)
-        UltraTreeNode42.Text = "Transactions"
+        UltraTreeNode81.Override = Override78
+        UltraTreeNode81.Tag = "2227"
+        UltraTreeNode81.Text = "Credit Note"
+        UltraTreeNode43.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode44, UltraTreeNode57, UltraTreeNode66, UltraTreeNode72, UltraTreeNode79, UltraTreeNode80, UltraTreeNode81})
         Override79.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode83.Override = Override79
-        UltraTreeNode83.Tag = "22251"
-        UltraTreeNode83.Text = "Allow Edit Max Lvl"
-        UltraTreeNode82.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode83})
+        UltraTreeNode43.Override = Override79
+        UltraTreeNode43.Tag = CType(222, Long)
+        UltraTreeNode43.Text = "Transactions"
         Override80.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode82.Override = Override80
-        UltraTreeNode82.Tag = "2231"
-        UltraTreeNode82.Text = "Stock Enquiries"
+        UltraTreeNode84.Override = Override80
+        UltraTreeNode84.Tag = "22251"
+        UltraTreeNode84.Text = "Allow Edit Max Lvl"
+        UltraTreeNode83.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode84})
         Override81.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode84.Override = Override81
-        UltraTreeNode84.Tag = "2232"
-        UltraTreeNode84.Text = "Item Movment"
+        UltraTreeNode83.Override = Override81
+        UltraTreeNode83.Tag = "2231"
+        UltraTreeNode83.Text = "Stock Enquiries"
         Override82.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode85.Override = Override82
-        UltraTreeNode85.Tag = "2233"
-        UltraTreeNode85.Text = "Serial Number Enquiries"
-        UltraTreeNode81.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode82, UltraTreeNode84, UltraTreeNode85})
+        UltraTreeNode85.Tag = "2232"
+        UltraTreeNode85.Text = "Item Movment"
         Override83.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode81.Override = Override83
-        UltraTreeNode81.Tag = CType(223, Long)
-        UltraTreeNode81.Text = "Enquiries"
+        UltraTreeNode86.Override = Override83
+        UltraTreeNode86.Tag = "2233"
+        UltraTreeNode86.Text = "Serial Number Enquiries"
+        UltraTreeNode82.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode83, UltraTreeNode85, UltraTreeNode86})
         Override84.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode86.Override = Override84
-        UltraTreeNode86.Tag = CType(224, Long)
-        UltraTreeNode86.Text = "Reports"
+        UltraTreeNode82.Override = Override84
+        UltraTreeNode82.Tag = CType(223, Long)
+        UltraTreeNode82.Text = "Enquiries"
         Override85.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode87.Override = Override85
-        UltraTreeNode87.Tag = CType(225, Long)
-        UltraTreeNode87.Text = "Charts"
-        UltraTreeNode34.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode35, UltraTreeNode42, UltraTreeNode81, UltraTreeNode86, UltraTreeNode87})
+        UltraTreeNode87.Tag = CType(224, Long)
+        UltraTreeNode87.Text = "Reports"
         Override86.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode34.Override = Override86
+        UltraTreeNode88.Override = Override86
+        UltraTreeNode88.Tag = CType(225, Long)
+        UltraTreeNode88.Text = "Charts"
+        UltraTreeNode34.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode35, UltraTreeNode43, UltraTreeNode82, UltraTreeNode87, UltraTreeNode88})
+        Override87.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
+        UltraTreeNode34.Override = Override87
         UltraTreeNode34.Tag = CType(22, Long)
         UltraTreeNode34.Text = "Order Entry"
-        Override87.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode89.Override = Override87
-        UltraTreeNode89.Tag = CType(241, Long)
-        UltraTreeNode89.Text = "Maintenance"
         Override88.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode90.Override = Override88
-        UltraTreeNode90.Tag = CType(242, Long)
-        UltraTreeNode90.Text = "Transactions"
+        UltraTreeNode90.Tag = CType(241, Long)
+        UltraTreeNode90.Text = "Maintenance"
         Override89.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode91.Override = Override89
-        UltraTreeNode91.Tag = CType(243, Long)
-        UltraTreeNode91.Text = "Enquiries"
+        UltraTreeNode91.Tag = CType(242, Long)
+        UltraTreeNode91.Text = "Transactions"
         Override90.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode92.Override = Override90
-        UltraTreeNode92.Tag = CType(244, Long)
-        UltraTreeNode92.Text = "Reports"
+        UltraTreeNode92.Tag = CType(243, Long)
+        UltraTreeNode92.Text = "Enquiries"
         Override91.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
         UltraTreeNode93.Override = Override91
-        UltraTreeNode93.Tag = CType(245, Long)
-        UltraTreeNode93.Text = "Charts"
-        UltraTreeNode88.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode89, UltraTreeNode90, UltraTreeNode91, UltraTreeNode92, UltraTreeNode93})
+        UltraTreeNode93.Tag = CType(244, Long)
+        UltraTreeNode93.Text = "Reports"
         Override92.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode88.Override = Override92
-        UltraTreeNode88.Tag = CType(24, Long)
-        UltraTreeNode88.Text = "Job Costing"
+        UltraTreeNode94.Override = Override92
+        UltraTreeNode94.Tag = CType(245, Long)
+        UltraTreeNode94.Text = "Charts"
+        UltraTreeNode89.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode90, UltraTreeNode91, UltraTreeNode92, UltraTreeNode93, UltraTreeNode94})
         Override93.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode94.Override = Override93
-        UltraTreeNode94.Tag = CType(27, Long)
-        UltraTreeNode94.Text = "Agent"
-        UltraTreeNode1.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode2, UltraTreeNode3, UltraTreeNode4, UltraTreeNode10, UltraTreeNode16, UltraTreeNode22, UltraTreeNode28, UltraTreeNode34, UltraTreeNode88, UltraTreeNode94})
+        UltraTreeNode89.Override = Override93
+        UltraTreeNode89.Tag = CType(24, Long)
+        UltraTreeNode89.Text = "Job Costing"
+        Override94.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
+        UltraTreeNode95.Override = Override94
+        UltraTreeNode95.Tag = CType(27, Long)
+        UltraTreeNode95.Text = "Agent"
+        UltraTreeNode1.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode2, UltraTreeNode3, UltraTreeNode4, UltraTreeNode10, UltraTreeNode16, UltraTreeNode22, UltraTreeNode28, UltraTreeNode34, UltraTreeNode89, UltraTreeNode95})
         Appearance3.FontData.BoldAsString = "True"
         Appearance3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Override94.NodeAppearance = Appearance3
-        Override94.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
-        UltraTreeNode1.Override = Override94
+        Override95.NodeAppearance = Appearance3
+        Override95.NodeStyle = Infragistics.Win.UltraWinTree.NodeStyle.CheckBox
+        UltraTreeNode1.Override = Override95
         UltraTreeNode1.Tag = CType(2000, Long)
         UltraTreeNode1.Text = "Sage Evolution"
         Me.TC.Nodes.AddRange(New Infragistics.Win.UltraWinTree.UltraTreeNode() {UltraTreeNode1})
@@ -753,8 +759,8 @@ Partial Class frmAccessRights
         'UTC
         '
         Me.UTC.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.UTC.Controls.Add(Me.ultraTabSharedControlsPage1)
         Me.UTC.Controls.Add(Me.UltraTabPageControl1)
         Me.UTC.Controls.Add(Me.UltraTabPageControl2)

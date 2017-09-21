@@ -79,16 +79,20 @@ Public Class frmReciept
     End Sub
 
     Private Sub printrec(ByVal id As Integer)
+        Try
+            Dim report As New ReportDocument
 
-        Dim report As New ReportDocument
+            report.PrintOptions.PrinterName = "RECIEPT2"
+            report.Load(Application.StartupPath & "\Reciept.rpt", OpenReportMethod.OpenReportByDefault)
 
-        report.PrintOptions.PrinterName = "RECIEPT2"
-        report.Load(Application.StartupPath & "\Reciept.rpt", OpenReportMethod.OpenReportByDefault)
+            report.RecordSelectionFormula = "{PostAR.AutoIdx}=" & id & ""
+            ApplyLoginToTable(report)
 
-        report.RecordSelectionFormula = "{PostAR.AutoIdx}=" & id & ""
-        ApplyLoginToTable(report)
+            report.PrintToPrinter(1, False, 0, 0)
+        Catch
+            'Exception(e)
+        End Try
 
-        report.PrintToPrinter(1, False, 0, 0)
 
     End Sub
 

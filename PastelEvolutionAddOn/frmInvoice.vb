@@ -3696,7 +3696,7 @@ abc:        DatabaseContext.CommitTran()
 
                     'If IsDBNull(dr("Price")) Or IsDBNull(dr("StockLink")) Then
                     'Else
-                    SQL = " update StkItem set AveUCst = " & dr("fInclPrice") & ", LatUCst = " & dr("fInclPrice") & ", LowUCst = " & dr("fInclPrice") & ", HigUCst = " & dr("fInclPrice") & ", StdUCst = " & dr("fInclPrice") & "  where StockLink = " & dr("iStockID") & "  AND ServiceItem = 0 "
+                    SQL = " update StkItem set AveUCst = " & dr("fInclPrice") & ", fItemLastGRVCost = " & dr("fInclPrice") & ", LatUCst = " & dr("fInclPrice") & ", LowUCst = " & dr("fInclPrice") & ", HigUCst = " & dr("fInclPrice") & ", StdUCst = " & dr("fInclPrice") & "  where StockLink = " & dr("iStockID") & "  AND ServiceItem = 0 "
                     'SQL += " update _btblInvoiceLines set fUnitPriceExcl = " & dr("Cost") & ", fUnitPriceIncl = " & dr("Cost") & " where iInvoiceID = 16583 and iStockCodeID = " & dr("System No") & " "
 
                     '  -----------------------------------------------------------
